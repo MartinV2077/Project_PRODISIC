@@ -8,30 +8,103 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <div id="page-wrapper">
-        <header id="header">
-          
-            <img id="header-img" src="imagenes/Logo-PRODISIC.png" alt="Logo PRODISIC" width="200px" />
-          <div><h3><strong> Juan Perez </strong><br> Codigo MS0001</h3></div>
-          <img id="header-img" src="imagenes/camarero.png" alt="icono camarero" width="100px" />
+		<header>
+			<section id="titulo">
+				<img src="imagenes/Logo-PRODISIC.png" alt="Logo PRODISIC" width="200px" />
+          <div class="camarero">
+            <h3><b> Juan Perez </b><br> Codigo MS0001</h3>			
+				    <img src="imagenes/camarero.png" alt="icono camarero" width="100px" />
           </div>
+			</section>
+		</header>
+
+		<nav>
+			<ul id="menu">
+				<li><a class="nav-link" href="combos.html">Combos</a></li>
+        <li><a class="nav-link" href="precios.html">Precios</a></li>
+        <li><a class="nav-link" href="../loginPrincipal.html">Salir</a></li>
+			</ul>
+		</nav>
+    <div id="formulario">
       
-          <nav id="nav-bar">
-            <ul>
-              <li><a class="nav-link" href="#productos">Productos</a></li>
-              <li><a class="nav-link" href="#precios">Precios</a></li>
-              <li><a class="nav-link" href="#conoce">Conoce mas</a></li>
-            </ul>
-          </nav>
-        </header>
-<div class="contenedor_flex">
-    <div class="cabecera_flex">Cabecera </div>
-    <div class="contenedor_central_flex">
-        <div class="menu_flex"> menu</div>
-        <div class="principal_flex">principal</div>
-        <div class="lateral_flex">lateral</div>
+        <form action="/my-handling-form-page" method="post">
+          <ul>
+            <li>
+              <label for="date">Fecha:</label>
+              <input type="date" id="fecha" name="fecha">
+            </li>
+           <li>
+             <label for="name">Nombre:</label>
+             <input type="text" id="name" name="user_name">
+           </li>
+           <li>
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" name="telefono">
+          </li>
+           <li>
+             <label for="mail">Correo electrónico:</label>
+             <input type="email" id="mail" name="user_mail">
+           </li>
+           <li>
+           <label for="mesa">Mesa:</label>
+           <select id= "mesa" name="Mesa">
+            <option value"1">1</option>
+            <option value"2">2</option>
+            <option value"3">3</option>
+            <option value"4">4</option>
+            <option value"5">5</option>
+            <option value"6">6</option>
+            <option value"7">7</option>
+            </select>
+          </li>
+          <li>
+            <label for="personas">N°Personas:</label>
+            <select id= "personas" name="persona">
+             <option value"1">1</option>
+             <option value"2">2</option>
+             <option value"3">3</option>
+             <option value"4">4</option>
+             <option value"5">5</option>
+             <option value"6">6</option>
+             <option value"7">7</option>
+             <option value"8">8</option>
+             <option value"9">9</option>
+             <option value"10">10</option>
+             <option value"11">11</option>
+             <option value"12">12</option>
+             <option value"13">13</option>
+             <option value"14">14</option>
+             </select>
+           </li>
+           <li>
+             <label for="msg">Adicional:</label>
+             <textarea id="msg" name="user_message"></textarea>
+           </li>
+           
+          </ul>
+
+         </form>
+      
     </div>
-    <div class="pie_flex"> pie</div>
-</div>
+		<section id="informacion">
+		<div>
+      <h2>Menu Comida</h2>	
+			<a class="comida" href="hamburguesa.html"><img src="imagenes/hamburguesa-con-queso.png" width="200px" height="150px" alt="icono hamburguesa"></a>
+			<a class="comida" href="hotDog.html"><img src="imagenes/hot-dog.png" width="250px" height="150px" alt="icono Perro Caliente"></a>
+      <a class="comida" href="pizza.html"><img src="imagenes/porcion-de-pizza.png" width="250px" height="150px" alt="icono Pizza"></a>
+      <a class="comida" href="bebida.html"><img src="imagenes/soft-drink.png" width="250px" height="150px" alt="icono bebidas"></a>
+    </div>
+			
+		</section>
+	<div id="botones">
+      <br /><button type='submit' name= 'cancelar' >Cancelar</button>
+      <br /><button type='submit' name= 'modificar' >Modificar</button>
+      <br /><button type='submit' name= 'agregar' >Agregar</button>
+  </div>
+ <footer>
+ 	<div >
+ 		<h2 id="pie">Pagina realizada por Martin Vasquez<br>para Evidencia Diseño Desarrollo Interfaz Web</h2>
+ 	</div>
+ </footer>
 </body>
 </html>

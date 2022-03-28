@@ -1,53 +1,122 @@
-header {
-    position: center;
-    top: 0;
-    min-height: 75px;
-    padding: 0px 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #eee;
-  } 
-  
-  @media (max-width: 600px) {
-    header {
-      flex-wrap: wrap;
-    }
-  }
+body{
+	background-image: url("fondoComidas.jpg");
 
-nav {
-    font-weight: 400;
-  }
-  
-  @media (max-width: 650px) {
-    nav {
-      margin-top: 10px;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 0 50px;
-    }
-    nav li {
-      padding-bottom: 5px;
-    }
-  }
-  
-  nav > ul {
-    width: 35vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  @media (max-width: 650px) {
-    nav > ul {
-      flex-direction: column;
-    }
-  }
+}
 
-  li {
-    list-style: none;
-    font-weight: bold;
-  }
+#titulo{
+  display: center;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.camarero{
+  float: right;
+  margin-right: 500px;
+}
+ nav{
+	height: 60px;
+	background: rgba(100, 100, 100, 0.6);
+	border-radius: 30px 30px 0 0;
+	font-family: "Arial";
+	font-weight: bold;
+  
+}
+
+nav #menu {
+	list-style: none;
+	text-align: left;
+}
+
+nav #menu li{
+	background-color: grey;
+	border-radius: 0.5em 0.5em 0 0;
+	border: solid 2px;
+	display: inline-block;
+	margin-left: -0.5px;
+	padding: 1em;
+	vertical-align: top;
+}
+
+nav #menu a{
+	text-decoration: none;
+}
+
+nav #menu li:hover {
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transition: all 0.2s ease;
+}
+
+li{
+  margin-left: 100px;
+}
+.comida {
+  border: 5px black solid; 
+  border-radius: 10px;
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+}
+
+#informacion {
+	background: -webkit-linear-gradient(#ccc, rgba(255,255,255,0.3)20%);
+	width: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 1em;
+  align-content: center;
+	font-family: "Arial";
+	font-weight: bold;
+	color: rgb(26, 5, 83);	
+}
+
+#informacion {
+	width: 100%;
+	border-radius: 10px;
+	float: left;
+	padding: 1em;
+	text-align: justify;
+}
+
+
+footer{
+	clear: both;
+	height: 70px;
+	background: rgba(48, 47, 47, 0.6);
+	border-radius: 0 0 30px 30px;
+	text-align: center;
+}
+
+#pie{
+	color: white;
+	font-family: Arial;
+}
+
+h1{
+	font-family: "Arial";
+	color: rgb(235, 29, 29);
+
+}
+
+button{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: darkslategray;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: darkgray;
+  display: inline-block;
+  float: left;
+  margin: 5px;  
+}
+
+#botones{
+  margin-left: 200px;
+}
+
+#presentacion{
+  border: 2px solid black;
+  border-radius: 10px; 
+}
