@@ -19,12 +19,49 @@ h1{
 }
 button{
 font-family: Arial;
-font-size: 20px;
+font-size: 10px;
 font-weight: bold;
 color: darkslategray;
 padding: 20px;
 border: 2px solid black;
 border-radius: 10px;
 background-color: darkgray;
-width: 200px;
+width: 80px;
+bottom: 5px;
 }
+
+*{
+  margin:0; /* Resetear valor */
+  padding:0; /* Resetear valor */
+ }
+ body{  /* doy valores al cuerpo de la página */
+  font-family:arial,sans-serif;
+  font-size:100%;
+  margin:3em;
+  background:#666;
+  color:#fff;
+ }
+ h2,p{
+  font-size:100%;
+  font-weight:normal;
+ }
+ ul,li{
+  list-style:none; /* quito el punto de la lista */
+ }
+ ul{
+  overflow:hidden;  /* ocultar el texto que salga de la Nota */
+  padding:3em;
+ }
+ ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;  /* genera un bloque por cada li */
+  height:20em; /* altura de la Nota */
+  width:20em;  /* anchura de la Nota */
+  padding:1em;  /* espacio entre texto de las Notas */
+ }
+ ul li{
+  margin:1em;  /* espacio entre las notas */
+  float:left;  /* alinear notas */
+ }
