@@ -1,0 +1,30 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#marco{
+    border: 2px solid black;
+    padding: 10px; 
+}
+.principal{
+  margin: 0 auto;
+  width: 500px;
+  padding: 40px;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  background-color: darkslateblue;
+  color: lightgray;
+  font-size: 24px;
+  box-shadow: 10px 10px 5px black;
+  text-align: center;
+}
+button{
+font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+color: darkslategray;
+padding: 20px;
+border: 2px solid black;
+border-radius: 10px;
+background-color: darkgray;
+width: 200px;
+}

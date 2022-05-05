@@ -8,29 +8,33 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <H1>PEDIDOS PARA HOY</H1>
+  <img src="imagesGP/Logo-PRODISIC.png" width="200px">
+    <center><H1>PEDIDOS PARA HOY</H1></center>
+    <div id="marco">
+    <div class="principal">
     <h4> 
         PEDIDO 1 - MESA 1 - COMANDA 001 
     </h4> 
     
-    <label for="domTextElement">Name: </label>
-    <input type="text" id="domTextElement" > 
-    
-    <button type="button"  onclick="getValueInput()"> 
+    <button type="button"> 
         Realizado 
     </button> 
-    <button type="button"  onclick="getValueInput()"> 
+    <button type="button"> 
       Cancelado
   </button>
     <p id="valueInput"></p> 
-  
-    <script> 
-  
-      const getValueInput = () =>{
-        let inputValue = document.getElementById("domTextElement").value; 
-        document.getElementById("valueInput").innerHTML = inputValue; 
-      }
-      
-    </script> 
+    </div>
+    <div class="principal">
+      <h4> 
+        PEDIDO 2 - MESA 2 - COMANDA 002 
+    </h4> 
+    <button type="button"> 
+      Realizado 
+  </button> 
+  <button type="button"> 
+    Cancelado
+</button>
+    </div>
+  </div>
 </body>
 </html>
