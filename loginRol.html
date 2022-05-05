@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rol Colaborador</title>
     <style>
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #principal{
+          margin: 0 auto;
+          width: 400px;
+          padding: 40px;
+          border: 1px solid #CCC;
+          border-radius: 10px;
+          background-color: darkslateblue;
+          color: lightgray;
+          font-size: 24px;
+          box-shadow: 10px 10px 5px black;
+          text-align: center;
+        }
         button{
         font-family: Arial;
         font-size: 20px;
@@ -20,15 +35,21 @@
 </head>
 <body>
 
-    <div>
+    <div id="principal">
         <img src="images/Logo-PRODISIC.png" width="200px">
         <h1>Buen dia, seleccione su rol</h1>
-        <button type="submit">Administrativo</button>
-        <button type="submit">Cajero</button>
-        <button type="submit">Mesero</button>
-        <button type="submit">Teleoperador</button>
-        <button type="submit">Parrillero</button>
-        <button type="submit">Domiciliario</button>
+        <div id="GAdministrativo">
+            <button type="submit">Administrativo</button>
+            <button type="submit">Cajero</button>
+        </div>
+        <div id="GLocal">
+            <button type="submit">Mesero</button>
+            <button type="submit">Parrillero</button>
+        </div>
+        <div id="GDomicilio">
+            <button type="submit">Teleoperador</button>
+            <button type="submit">Domiciliario</button>
+        </div>
     </div>
 </body>
 </html>
