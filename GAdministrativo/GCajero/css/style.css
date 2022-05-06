@@ -1,0 +1,40 @@
+*{
+    margin:0; /* Resetear valor */
+    padding:0; /* Resetear valor */
+   }
+   body{  /* doy valores al cuerpo de la página */
+    
+    font-family:arial,sans-serif;
+    font-size:100%;
+    margin:2em;
+    background:rgb(197, 195, 195);
+    color:black;
+    text-align: center;
+   }
+#principal{
+    display: inline-block;
+    border: 5px solid black;
+    padding: 10px;
+}
+button{
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+    color: darkslategray;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(231, 226, 226);
+    width: 100px;
+    text-align: center;
+    }
+
+#comanda{
+    display: inline-block;
+    border: 2px solid white;
+    padding: 20px;
+}
+input{
+    padding: 5px;
+}

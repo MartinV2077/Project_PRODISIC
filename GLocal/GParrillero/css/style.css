@@ -31,7 +31,7 @@ text-align: center;
 }
 
 #botones{
- margin-top: 350px;
+ margin-top: 340px;
 }
 
 *{
@@ -47,7 +47,7 @@ text-align: center;
  }
  h2,p{
   font-size:100%;
-  font-weight:normal;
+  font-weight:bold;
  }
  ul,li{
   list-style:none; /* quito el punto de la lista */
